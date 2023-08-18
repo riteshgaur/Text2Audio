@@ -12,7 +12,7 @@ from gtts import gTTS
 import os
 
 texts= [
-   "Our team utilizing RunwayML's Gen-2 is a AI system that can generate novel videos with text, images or video clips."
+   "Hello! This is what I will say in the audio file."
 ]
 for i, text in enumerate(texts):
     tts = gTTS(text)
